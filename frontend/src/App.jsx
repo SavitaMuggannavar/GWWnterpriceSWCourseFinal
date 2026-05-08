@@ -31,8 +31,8 @@ function App() {
             <tbody>
             {
                 users.map(user => (
-                    <tr key = {user.Id}>
-                        <td>{user.Id}</td>
+                    <tr key = {user.id}>
+                        <td>{user.id}</td>
                         <td>{user.name}</td>
                         <td>{user.email}</td>
                         <td>{user.active ? 'Active' : 'Inactive'}</td>
