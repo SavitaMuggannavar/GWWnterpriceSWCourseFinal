@@ -19,7 +19,6 @@ function App() {
   return (
     <>
      <h1> React Frontend</h1>
-        <p>changed this</p>
         <table className="table">
             <thead>
             <tr>
@@ -32,8 +31,8 @@ function App() {
             <tbody>
             {
                 users.map(user => (
-                    <tr key = {user.id}>
-                        <td>{user.id}</td>
+                    <tr key = {user.Id}>
+                        <td>{user.Id}</td>
                         <td>{user.name}</td>
                         <td>{user.email}</td>
                         <td>{user.active ? 'Active' : 'Inactive'}</td>
