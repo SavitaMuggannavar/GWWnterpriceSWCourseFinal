@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: DevopsTest
+  datasource:
+    url: jdbc:sqlite:C:\\Users\\savit\\OneDrive\\Desktop\\ReBoot\\users.db
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
